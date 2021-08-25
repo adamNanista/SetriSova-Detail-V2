@@ -1072,6 +1072,9 @@ select.formular__ziadost__inner__formular__item__element__control:hover,
 		display: block;
 		font-size: 22px;
 	}
+	.formular__ziadost__inner__formular__item__label {
+		margin-bottom: 12px;
+	}
 	
 	.product__info h2 {
 		font-size: 22px;
