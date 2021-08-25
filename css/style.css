@@ -975,7 +975,10 @@ select.formular__ziadost__inner__formular__item__element__control:hover,
 	.formular__ziadost__inner__formular__item__label {
 		margin-bottom: 24px;
 	}
-	
+	.formular__ziadost__inner__formular__item.validation__error {
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
 	.circle + .circle, 
 	.formular__ziadost__inner__formular__item__element__choice__block + .formular__ziadost__inner__formular__item__element__choice__block {
 		margin-top: 12px;
