@@ -1,0 +1,344 @@
+<!DOCTYPE HTML>
+<html lang="sk">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	
+	<title>ŠetriSova</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/fontawesome.css" />
+	
+	<script src="js/jquery.js"></script>
+</head>
+<body class="clearfix">
+
+	<div class="header">
+		<div class="header__wrap">
+			<div class="header__inner clearfix">
+				<a href="#" class="header__branding">
+					<img src="images/logo.svg" class="header__branding__img" alt="ŠetriSova" width="140" height="22">
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="heading">
+		<div class="heading__wrap">
+			<div class="heading__inner clearfix">
+				<h1 class="heading__title">Ahoj pôžička</h1>
+			</div>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="content__wrap">
+			<div class="content__inner">
+				<div class="product clearfix">
+					<div class="product__intro">
+						<span class="product__branding">
+							<img src="images/ahoj-pozicka.svg" class="product__branding__img" alt="Pôžička Ahoj" width="96" height="48" />
+						</span>
+						<div class="table table--two-col">
+							<div class="table__row">
+								<div class="table__col">
+									<span class="table__content">Výška pôžičky</span>
+								</div>
+								<div class="table__col">
+									<strong class="table__content">400 – 10 000 €</strong>
+								</div>
+							</div>
+							<div class="table__row">
+								<div class="table__col">
+									<span class="table__content">Splatnosť</span>
+								</div>
+								<div class="table__col">
+									<strong class="table__content">1 – 8 rokov</strong>
+								</div>
+							</div>
+							<div class="table__row">
+								<div class="table__col">
+									<span class="table__content">Výška úroku</span>
+								</div>
+								<div class="table__col">
+									<strong class="table__content">Závisí od výšky pôžičky a dĺžky splácania</strong>
+								</div>
+							</div>
+						</div>
+						<a href="#product__form" class="btn transition click__ripple__haver">
+							Vyplniť žiadosť
+							<i class="fas fa-angle-right"></i>
+							<span class="click__ripple"></span>
+						</a>
+					</div>
+					<div class="product__form" id="product__form">
+						<form class="formular__ziadost__inner__formular" action="" id="ziadost" accept-charset="UTF-8" method="POST">
+							<input type="hidden" name="next_step" value="validate">
+							<input type="hidden" name="utmt" value="ss60ec41509b437|newsletter||||1627545303">
+							<input type="hidden" name="adw" value="">
+							<input type="hidden" name="partner" value="newsletter">
+							<input type="hidden" name="screen_code" value="1">
+							<input id="client_id" type="hidden" name="client_id" value="1267683451.1627477593"><input type="hidden" name="device_type" value="desktop">
+							<input type="hidden" name="device_name" value="WebKit">
+							<input type="hidden" name="device_os" value="Windows">
+							<input type="hidden" name="device_browser" value="Chrome">
+							<input type="hidden" name="user_agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36">
+							<input type="hidden" name="uniid" value="6124f40c5867f">
+							<input type="hidden" name="storage" value="13507040">
+							<span class="formular__ziadost__inner__formular__block__heading">Pôžičku&nbsp;môžete získať rýchlo a&nbsp;jednoducho. <strong>Stačí, keď&nbsp;vyplníte krátky formulár.</strong></span><div class="formular__ziadost__inner__formular__item clearfix circles" id="circles_pozicka">
+							<label id="vyska_pozicky_label" class="formular__ziadost__inner__formular__item__label clearfix">Koľko si chcete požičať?</label>
+							<div class="formular__ziadost__inner__formular__item__element clearfix">
+							<input type="hidden" id="vyska_pozicky" style="display: none" name="ziadost:vyska_pozicky" value="">
+							<ul class="circles__list clearfix">
+							<li id="pozicka_400" data-key="400" class="circle transition pozicka"><span>400&nbsp;€</span><div class="click__ripple"></div></li>
+							<li id="pozicka_2000" data-key="2000" class="circle transition pozicka"><span>2&nbsp;000&nbsp;€</span><div class="click__ripple"></div></li>
+							<li id="pozicka_6000" data-key="6000" class="circle transition pozicka"><span>6&nbsp;000&nbsp;€</span><div class="click__ripple"></div></li>
+							<li class="circle circle__select transition">
+							<span class="selected">Inú sumu</span>
+							<ul class="circles__options">
+							<li id="pozicka_500" data-key="500" class="circles__option transition pozicka" data-value="500">500&nbsp;€</li>
+							<li id="pozicka_600" data-key="600" class="circles__option transition pozicka" data-value="600">600&nbsp;€</li>
+							<li id="pozicka_700" data-key="700" class="circles__option transition pozicka" data-value="700">700&nbsp;€</li>
+							<li id="pozicka_800" data-key="800" class="circles__option transition pozicka" data-value="800">800&nbsp;€</li>
+							<li id="pozicka_900" data-key="900" class="circles__option transition pozicka" data-value="900">900&nbsp;€</li>
+							<li id="pozicka_1000" data-key="1000" class="circles__option transition pozicka" data-value="1000">1&nbsp;000&nbsp;€</li>
+							<li id="pozicka_1500" data-key="1500" class="circles__option transition pozicka" data-value="1500">1&nbsp;500&nbsp;€</li>
+							<li id="pozicka_2500" data-key="2500" class="circles__option transition pozicka" data-value="2500">2&nbsp;500&nbsp;€</li>
+							<li id="pozicka_3000" data-key="3000" class="circles__option transition pozicka" data-value="3000">3&nbsp;000&nbsp;€</li>
+							<li id="pozicka_3500" data-key="3500" class="circles__option transition pozicka" data-value="3500">3&nbsp;500&nbsp;€</li>
+							<li id="pozicka_4000" data-key="4000" class="circles__option transition pozicka" data-value="4000">4&nbsp;000&nbsp;€</li>
+							<li id="pozicka_4500" data-key="4500" class="circles__option transition pozicka" data-value="4500">4&nbsp;500&nbsp;€</li>
+							<li id="pozicka_5000" data-key="5000" class="circles__option transition pozicka" data-value="5000">5&nbsp;000&nbsp;€</li>
+							<li id="pozicka_5500" data-key="5500" class="circles__option transition pozicka" data-value="5500">5&nbsp;500&nbsp;€</li>
+							<li id="pozicka_6500" data-key="6500" class="circles__option transition pozicka" data-value="6500">6&nbsp;500&nbsp;€</li>
+							<li id="pozicka_7000" data-key="7000" class="circles__option transition pozicka" data-value="7000">7&nbsp;000&nbsp;€</li>
+							<li id="pozicka_7500" data-key="7500" class="circles__option transition pozicka" data-value="7500">7&nbsp;500&nbsp;€</li>
+							<li id="pozicka_8000" data-key="8000" class="circles__option transition pozicka" data-value="8000">8&nbsp;000&nbsp;€</li>
+							<li id="pozicka_8500" data-key="8500" class="circles__option transition pozicka" data-value="8500">8&nbsp;500&nbsp;€</li>
+							<li id="pozicka_9000" data-key="9000" class="circles__option transition pozicka" data-value="9000">9&nbsp;000&nbsp;€</li>
+							<li id="pozicka_9500" data-key="9500" class="circles__option transition pozicka" data-value="9500">9&nbsp;500&nbsp;€</li>
+							<li id="pozicka_10000" data-key="10000" class="circles__option transition pozicka" data-value="10000">10&nbsp;000&nbsp;€</li>
+							</ul>
+							<div class="click__ripple"></div>
+							</li>
+							</ul>
+							</div>
+							</div>
+							<div class="formular__ziadost__inner__formular__item clearfix circles" id="circles_pracovne_zaradenie">
+							<label id="pracovne_zaradenie_label" class="formular__ziadost__inner__formular__item__label clearfix">Ste zamestnaný/-á?</label>
+							<div class="formular__ziadost__inner__formular__item__element clearfix">
+							<input type="hidden" id="pracovne_zaradenie" style="display: none" name="ziadost:pracovne_zaradenie" value="">
+							<ul class="circles__list clearfix">
+							<li id="praca_2" data-key="2" class="circle transition praca"><span>Zamestnanec na&nbsp;Slovensku</span><div class="click__ripple"></div></li>
+							<li id="praca_3" data-key="3" class="circle transition praca"><span>Zamestnanec v&nbsp;zahraničí</span><div class="click__ripple"></div></li>
+							<li id="praca_4" data-key="4" class="circle transition praca"><span>Fyzická osoba - podnikateľ</span><div class="click__ripple"></div></li>
+							<li class="circle circle__select transition">
+							<span class="selected">Iné</span>
+							<ul class="circles__options">
+							<li id="praca_1" data-key="1" class="circles__option transition praca" data-value="1">Štátny zamestnanec</li>
+							<li id="praca_5" data-key="5" class="circles__option transition praca" data-value="5">Starobný dôchodca</li>
+							<li id="praca_7" data-key="7" class="circles__option transition praca" data-value="7">Výsluhový dôchodca</li>
+							<li id="praca_6" data-key="6" class="circles__option transition praca" data-value="6">Invalidný dôchodca</li>
+							<li id="praca_8" data-key="8" class="circles__option transition praca" data-value="8">Opatrovateľka v&nbsp;SR</li>
+							<li id="praca_13" data-key="13" class="circles__option transition praca" data-value="13">Opatrovateľka v&nbsp;Rakúsku</li>
+							<li id="praca_11" data-key="11" class="circles__option transition praca" data-value="11">Študent</li>
+							<li id="praca_10" data-key="10" class="circles__option transition praca" data-value="10">Materská dovolenka</li>
+							<li id="praca_12" data-key="12" class="circles__option transition praca" data-value="12">Osoba v&nbsp;domácnosti</li>
+							<li id="praca_9" data-key="9" class="circles__option transition praca" data-value="9">Nezamestnaný</li>
+							</ul>
+							<div class="click__ripple"></div>
+							</li>
+							</ul>
+							</div>
+							</div>
+							<div class="formular__ziadost__inner__formular__item clearfix" id="number_prijem">
+							<label id="prijem_label" class="formular__ziadost__inner__formular__item__label"><span id="prijem_label_text">Váš čistý mesačný príjem</span></label>
+							<div class="formular__ziadost__inner__formular__item__element clearfix">
+							<input data-hj-whitelist="" class="formular__ziadost__inner__formular__item__element__control transition" name="ziadost:prijem" type="number" id="prijem" placeholder="" value="">
+							<span class="euro">€</span></div>
+							</div>
+							<div class="formular__ziadost__inner__formular__item clearfix" id="number_splatky">
+							<label id="splatky_label" class="formular__ziadost__inner__formular__item__label"><span id="splatky_label_text">Vaše splátky za mesiac</span></label>
+							<div class="formular__ziadost__inner__formular__item__element clearfix">
+							<input data-hj-whitelist="" class="formular__ziadost__inner__formular__item__element__control transition" name="ziadost:splatky" type="number" id="splatky" placeholder="" value="">
+							<span class="euro">€</span></div>
+							</div>
+							<div class="formular__ziadost__inner__formular__item clearfix " id="select_splatka_v_omeskani_teraz">
+							<label id="splatka_v_omeskani_t_label" class="formular__ziadost__inner__formular__item__label"><span id="splatka_v_omeskani_t_label_text">Máte momentálne splátku v&nbsp;omeškaní?</span></label>
+							<div class="formular__ziadost__inner__formular__item__element clearfix" id="splatka_v_omeskani_t_element">
+							<select id="splatka_v_omeskani_t" class="formular__ziadost__inner__formular__item__element__control transition" name="ziadost:splatka_v_omeskani_teraz">
+							<option selected="selected" value="-1">» Vyberte «</option>
+							<option value="1">Áno</option>
+							<option value="0">Nie</option>
+							</select>
+							</div>
+							</div>
+							<div class="formular__ziadost__inner__formular__item clearfix " id="number_splatky">
+<label id="splatky_label" class="formular__ziadost__inner__formular__item__label"><span id="splatky_label_text">Koľko splácate mesačne za iné pôžičky?</span></label>
+<div class="formular__ziadost__inner__formular__item__element clearfix">
+<input data-hj-whitelist="" class="formular__ziadost__inner__formular__item__element__control transition" name="ziadost:splatky" type="number" id="splatky" placeholder="" value="">
+<span class="euro">€</span></div>
+<span class="visible__tooltip">Ak máte pôžičku, úver, hypotéku alebo lízing, napíšte, koľko&nbsp;eur mesačne zaplatíte za všetky splátky.</span></div>
+<div class="formular__ziadost__inner__formular__item clearfix choices" id="ynu_zaznam_v_registri">
+<label class="formular__ziadost__inner__formular__item__label clearfix">Ste v&nbsp;registri neplatičov?</label>
+						<div class="formular__ziadost__inner__formular__item__element clearfix">
+							<label class="formular__ziadost__inner__formular__item__element__choice__block yes__2">
+								<input class="zaznam_v_registri" type="radio" name="ziadost:zaznam_v_registri" value="1">
+								<span class="formular__ziadost__inner__formular__item__element__control choice transition"><span class="formular__ziadost__inner__formular__item__element__control__checkmark transition"></span>Áno</span>
+							</label>
+							<label class="formular__ziadost__inner__formular__item__element__choice__block no__2">
+								<input class="zaznam_v_registri" type="radio" name="ziadost:zaznam_v_registri" value="0">
+								<span class="formular__ziadost__inner__formular__item__element__control choice transition"><span class="formular__ziadost__inner__formular__item__element__control__checkmark transition"></span>Nie</span>
+							</label>
+							<label class="formular__ziadost__inner__formular__item__element__choice__block dontknow__2">
+								<input class="zaznam_v_registri" type="radio" name="ziadost:zaznam_v_registri" value="2">
+								<span class="formular__ziadost__inner__formular__item__element__control choice transition"><span class="formular__ziadost__inner__formular__item__element__control__checkmark transition"></span>Neviem</span>
+							</label>
+						</div>
+					</div>
+							<div class="formular__ziadost__inner__formular__item clearfix " id="number_rodne_cislo">
+							<label id="rodne_cislo_label" class="formular__ziadost__inner__formular__item__label"><span id="rodne_cislo_label_text">Rodné číslo</span></label>
+							<div class="formular__ziadost__inner__formular__item__element clearfix">
+							<input class="formular__ziadost__inner__formular__item__element__control transition" name="ziadost:rodne_cislo" type="number" id="rodne_cislo" placeholder="" value="">
+							</div>
+							</div>
+							<div class="formular__ziadost__inner__formular__item clearfix " id="text_meno">
+							<label id="meno_label" class="formular__ziadost__inner__formular__item__label"><span id="meno_label_text">Meno</span></label>
+							<div class="formular__ziadost__inner__formular__item__element clearfix">
+							<input data-hj-whitelist="" class="formular__ziadost__inner__formular__item__element__control transition" name="ziadost:meno" type="text" id="meno" placeholder="" value="">
+							</div>
+							</div>
+							<div class="formular__ziadost__inner__formular__item clearfix " id="text_priezvisko">
+							<label id="priezvisko_label" class="formular__ziadost__inner__formular__item__label"><span id="priezvisko_label_text">Priezvisko</span></label>
+							<div class="formular__ziadost__inner__formular__item__element clearfix">
+							<input data-hj-whitelist="" class="formular__ziadost__inner__formular__item__element__control transition" name="ziadost:priezvisko" type="text" id="priezvisko" placeholder="" value="">
+							</div>
+							</div>
+							<div class="formular__ziadost__inner__formular__item clearfix " id="text_email">
+							<label id="email_label" class="formular__ziadost__inner__formular__item__label"><span id="email_label_text">E-mail</span></label>
+							<div class="formular__ziadost__inner__formular__item__element clearfix">
+							<input class="formular__ziadost__inner__formular__item__element__control transition" name="ziadost:email" type="email" id="email" placeholder="" value="">
+							</div>
+							</div>
+							<div class="formular__ziadost__inner__formular__item clearfix " id="text_telefon">
+							<label id="telefon_2_label" class="formular__ziadost__inner__formular__item__label"><span id="telefon_2_label_text">Telefón</span></label>
+							<div class="formular__ziadost__inner__formular__item__element clearfix">
+							<input data-hj-whitelist="" class="formular__ziadost__inner__formular__item__element__control transition" name="ziadost:telefon_2" type="tel" id="telefon_2" placeholder="" value="">
+							</div>
+							</div>
+							<div class="formular__ziadost__inner__formular__vyhlasenia">    <script type="text/javascript">
+									function newPopup(url) {
+										popupWindow = window.open(
+											url,'popUpWindow','height=350,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no,status=no')
+									}
+								</script>
+								<span class="error__message" id="statement_error_message">Prosím, zaškrtnite súhlas so&nbsp;spracúvaním osobných údajov. Udelenie súhlasu je slobodné a&nbsp;dobrovoľné. Vezmite však na&nbsp;vedomie, že&nbsp;jeho poskytnutie je nevyhnutné pre&nbsp;spracovanie vašej žiadosti.</span>
+								<label class="formular__ziadost__inner__formular__vyhlasenia__element bigger custom__check clearfix">Potvrdzujem, že&nbsp;som sa oboznámil/a s&nbsp;informáciami o&nbsp;spracovaní osobných údajov zo&nbsp;strany spoločnosti Ahoj, a.s., ktoré mám k&nbsp;dispozícii <a href="https://www.ahojpozicky.sk/ochrana-osobnych-udajov" target="_blank">tu</a>.<input type="checkbox" name="vyhlasenie_general" id="sgdpr" value="1" #check#=""><span class="checkmark"></span></label>
+								<label class="formular__ziadost__inner__formular__vyhlasenia__element bigger custom__check clearfix">Súhlasím s&nbsp;<a href="#" class="suhlas__anchor">marketingovým oslovením</a> prevádzkovateľom ŠetriSovy - spoločnosťou TotalMoney s.r.o. v&nbsp;prípade, ak ešte nie som klientom spoločnosti<input type="checkbox" name="vyhlasenie_mark_tm" id="sm" value="1" #check#=""><span class="checkmark"></span></label>
+								<label class="formular__ziadost__inner__formular__vyhlasenia__element fin__info clearfix">Prevádzkovateľom osobných údajov uvedených v&nbsp;tomto formulári je spoločnosť Ahoj, a.s. so&nbsp;sídlom Dvořákovo nábrežie 4, 811 02 Bratislava, IČO: 48 113 671, zapísaná v&nbsp;Obchodnom registri na&nbsp;Okresnom súde v&nbsp;Bratislava I, od. Sa, vl.č. 6128/B (ďalej len ako „prevádzkovateľ“). Spoločnosť TotalMoney s.r.o., so&nbsp;sídlom Levočská 866, 058 01 Poprad, IČO 45657122 spracúva osobné údaje uvedené v&nbsp;tomto formulári ako sprostredkovateľ v&nbsp;mene prevádzkovateľa v&nbsp;súlade s&nbsp;Čl. 28 Nariadenia&nbsp;Európskeho parlamentu a&nbsp;Rady (EÚ) 2016/679 (GDPR). V&nbsp;prípade, ak ste spoločnosti TotalMoney s.r.o. udelili osobitný súhlas s&nbsp;marketingovým oslovením, spracúva Vaše osobné údaje ako prevádzkovateľ osobných údajov. Viac informácií o&nbsp;spracúvaní Vašich osobných údajov v&nbsp;rozsahu, v&nbsp;ktorom je TotalMoney s.r.o. prevádzkovateľom, nájdete <a href="https://setrisova.sk/informacie-o-spracuvani-osobnych-udajov" target="_blank" class="transition">tu</a>.</label>
+							</div><div class="formular__ziadost__inner__formular__submit"><button type="submit" class="formular__ziadost__inner__formular__submit__button transition" name="odoslat">Poslať<i class="fas fa-angle-right"></i></button>
+							</div>
+						</form>
+					</div>
+					<div class="product__info">
+						<p>Ahoj pôžička je ľahko dostupná pôžička s jednoduchým procesom poskytnutia. 5 minút po vyplnení žiadosti sa dozviete o výsledku schválenia a peniaze môžete mať na účte už dnes.</p>
+						<h2>Výhody Ahoj pôžičky</h2>
+						<ul class="icon__list icon__list--green">
+							<li><i class="fas fa-check"></i>Pôžička až do 10 000 eur</li>
+							<li><i class="fas fa-check"></i>Bez poplatku za poskytnutie</li>
+							<li><i class="fas fa-check"></i>Schválenie pôžičky do 5 minút, peniaze na účte už dnes</li>
+							<li><i class="fas fa-check"></i>Výšku mesačnej splátky si nastavíte podľa svojich potrieb</li>
+							<li><i class="fas fa-check"></i>Pôžičku vybavíte cez internet</li>
+						</ul>
+						<h3>Podmienky získania pôžičky</h3>
+						<ul>
+							<li>Pôžička až do 10 000 eur</li>
+							<li>Bez poplatku za poskytnutie</li>
+							<li>Schválenie pôžičky do 5 minút, peniaze na účte už dnes</li>
+							<li>Výšku mesačnej splátky si nastavíte podľa svojich potrieb</li>
+							<li>Pôžičku vybavíte cez internet</li>
+						</ul>
+						<div class="alert">
+							<p>Dokumenty stačí odfotiť mobilom a pripojiť k žiadosti o Ahoj pôžičku.</p>
+						</div>
+						<p class="smaller muted"><strong>Reprezentatívny príklad:</strong> Celková výška a mena úveru (S): 2 500 €, úroková sadzba: 18,34 % p. a., výška mesačnej splátky: 47,51 €, počet splátok (n): 96 mesiacov. Celková čiastka: 4 560,96 €, RPMN (X): 18,34 %.</p>
+					</div>
+					<div class="product__line"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="popup transition hidden" id="suhlas">
+		<div class="popup__wrap transition">
+			<div class="popup__inner">
+				<div class="popup__inner__header">Súhlas s&nbsp;marketingovým oslovovaním<a href="#" class="popup__inner__header__close"></a></div>
+				<div class="popup__inner__scroll">
+					<div class="popup__inner__content">
+						<p>Týmto udeľujem súhlas so&nbsp;spracúvaním osobných údajov uvedených v&nbsp;tomto formulári v&nbsp;rozsahu meno, priezvisko, tel. číslo a&nbsp;e-mail prevádzkovateľom - spoločnosťou TotalMoney, s.r.o., so&nbsp;sídlom Levočská 866, 058 01 Poprad, IČO 45657122 (ďalej len „TM“) na&nbsp;účely marketingu, v&nbsp;prípade, ak ešte nie som klientom TM, a&nbsp;to formou zasielania informácií o&nbsp;aktuálnych ponukách produktov a&nbsp;služieb prostredníctvom e-mailu, ktorý som uviedol/uviedla alebo formou telefonického kontaktovania na&nbsp;telefónnom čísle, ktoré som uviedol/uviedla. Súhlas udeľujem na&nbsp;dobu 3 rokov odo dňa jeho poskytnutia. Beriem na&nbsp;vedomie, že&nbsp;udelenie súhlasu nie je mojou povinnosťou a&nbsp;udelený súhlas mám možnosť kedykoľvek odvolať <a href="https://totalmoney.sk/index.php?option=com_pozickar&amp;view=unsubscribe" target="new">tu</a>, e-mailom na&nbsp;adresu: osobneudaje@totalmoney.sk alebo písomne na&nbsp;adrese sídla TM. Súčasne beriem na&nbsp;vedomie, že&nbsp;odvolanie súhlasu nemá vplyv na&nbsp;zákonnosť spracúvania vychádzajúceho zo&nbsp;súhlasu pred&nbsp;jeho odvolaním. Zároveň potvrdzujem správnosť a&nbsp;aktuálnosť mnou uvedených osobných údajov a&nbsp;prehlasujem, že&nbsp;som už&nbsp;dosiahol/a vek 18 rokov.</p>
+						<p>Informácie o&nbsp;spracovaní osobných údajov nájdete <a href="https://setrisova.sk/ochrana-osobnych-udajov" target="_blank">tu</a>.</p>
+						<a href="#" class="popup__inner__content__btn click__ripple__haver transition">Zatvoriť<span class="click__ripple"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="popup hidden transition" id="suhlasf">
+		<div class="popup__wrap transition">
+			<div class="popup__inner">
+				<div class="popup__inner__header">Informácie o&nbsp;finančnom sprostredkovaní<a href="#" class="popup__inner__header__close"></a></div>
+				<div class="popup__inner__scroll">
+					<div class="popup__inner__content">
+						<p>Prevádzkovateľom osobných údajov uvedených v&nbsp;tomto formulári je spoločnosť Ahoj, a.s. so&nbsp;sídlom Dvořákovo nábrežie 4, 811 02 Bratislava, IČO: 48 113 671, zapísaná v&nbsp;Obchodnom registri na&nbsp;Okresnom súde v&nbsp;Bratislava I, od. Sa, vl.č. 6128/B (ďalej len ako „prevádzkovateľ“). Spoločnosť TotalMoney s.r.o., so&nbsp;sídlom Levočská 866, 058 01 Poprad, IČO 45657122 spracúva osobné údaje uvedené v&nbsp;tomto formulári ako sprostredkovateľ v&nbsp;mene prevádzkovateľa v&nbsp;súlade s&nbsp;Čl. 28 Nariadenia&nbsp;Európskeho parlamentu a&nbsp;Rady (EÚ) 2016/679 (GDPR). V&nbsp;prípade, ak ste spoločnosti TotalMoney s.r.o. udelili osobitný súhlas s&nbsp;marketingovým oslovením, spracúva Vaše osobné údaje ako prevádzkovateľ osobných údajov. Viac informácií o&nbsp;spracúvaní Vašich osobných údajov v&nbsp;rozsahu, v&nbsp;ktorom je TotalMoney s.r.o. prevádzkovateľom, nájdete <a href="https://setrisova.sk/informacie-o-spracuvani-osobnych-udajov" target="new" class="transition">tu</a>.</p>
+						<a href="#" class="popup__inner__content__btn click__ripple__haver transition">Zatvoriť<span class="click__ripple"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="popup hidden transition" id="form_alert">
+		<div class="popup__wrap transition">
+			<div class="popup__inner">
+				<div class="popup__inner__header">Upozornenie<a href="#" class="popup__inner__header__close"></a></div>
+				<div class="popup__inner__scroll">
+					<div class="popup__inner__content">
+						<p id="alert_content"></p>
+						<a href="#" class="popup__inner__content__btn click__ripple__haver transition">Rozumiem<span class="click__ripple"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="back">
+		<div class="back__wrap">
+			<div class="back__inner clearfix">
+				<a href="/pozicky/bankove-pozicky?uver=2000&amp;splatnost=60&amp;hodnota=0" class="back__link click__ripple__haver transition"><i class="fas fa-angle-left"></i>Bankové pôžičky<span class="click__ripple"></span></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer__detail">
+		<div class="footer__detail__wrap">
+			<div class="footer__detail__inner clearfix">
+				<p>Máte otázky, alebo potrebujete pomôcť? <span class="mobile__block">Sme tu pre&nbsp;vás:</span> <a href="tel:0850001001" class="contact transition"><img src="images/phone--icon--black.svg" width="12" height="12" alt="Telefón">0850&nbsp;001&nbsp;001</a> / zo&nbsp;zahraničia <a href="tel:+421522902959" class="transition">+421&nbsp;522&nbsp;902&nbsp;959</a><span class="pomlcka"> – </span><a href="https://m.me/setrisova" class="contact transition"><img src="images/messenger--icon--black.svg" width="12" height="12" alt="Facebook Messenger">ŠetriSova</a><span class="pomlcka"> – </span><a href="mailto:otazky@setrisova.sk?subject=Ot%C3%A1zky%20pre%20%C5%A0etriSovu" class="contact transition"><img src="images/mail--icon--black.svg" width="12" height="12" alt="E-mail">otazky@setrisova.sk</a><br>Sme vám k&nbsp;dispozícii v&nbsp;pracovných dňoch od&nbsp;8:00 do&nbsp;16:30.</p>
+				<p>© ŠetriSova | 2009 – 2021 TotalMoney&nbsp;s.r.o.</p>
+				<p>ŠetriSova má všetky potrebné povolenia pre&nbsp;svoju činnosť na&nbsp;území Slovenskej republiky a&nbsp;podlieha dohľadu Národnej banky Slovenska.<br>Prevádzkovateľ ŠetriSovy, spoločnosť TotalMoney&nbsp;s.r.o., je držiteľom povolenia Národnej banky Slovenska – samostatný finančný agent, reg.&nbsp;č.&nbsp;127292. IČO:&nbsp;45&nbsp;657&nbsp;122, DIČ:&nbsp;2023080444, IČ&nbsp;DPH:&nbsp;SK2023080444<br>Naša adresa: ŠetriSova – TotalMoney&nbsp;s.r.o., Levočská&nbsp;866, Poprad, 058&nbsp;01. – <a href="/podmienky-pouzivania" class="transition">Podmienky používania</a> | <a href="/informacie-o-financnom-sprostredkovani" class="transition">Finančné sprostredkovanie</a> | <a href="/ochrana-osobnych-udajov" class="transition">Ochrana osobných údajov</a> | <a href="/cookies" class="transition">Cookies</a></p>
+				<p>Nie sme poskytovateľom pôžičky. Pracujeme s&nbsp;viacerými veriteľmi. Pôžičku poskytujú overené spoločnosti. Požičiavajte si zodpovedne. Požičajte si len toľko, koľko zvládnete splácať. V&nbsp;prípade problémov so&nbsp;splácaním pôžičky kontaktujte čo najskôr poskytovateľa pôžičky. Ak by ste pôžičku nesplatili v&nbsp;dohodnutom termíne, poskytovateľ pôžičky má právo účtovať úrok alebo poplatky z&nbsp;omeškania.</p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/script.js"></script>
+	
+</body>
+</html>
