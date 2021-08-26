@@ -972,8 +972,12 @@ select.formular__ziadost__inner__formular__item__element__control:hover,
 	.formular__ziadost__inner__formular__submit {
 		padding: 24px;
 	}
+	.formular__ziadost__inner__formular__block__heading strong {
+		display: block;
+		font-size: 22px;
+	}
 	.formular__ziadost__inner__formular__item__label {
-		margin-bottom: 24px;
+		margin-bottom: 12px;
 	}
 	.formular__ziadost__inner__formular__item.validation__error {
 		margin-top: 24px;
@@ -996,7 +1000,7 @@ select.formular__ziadost__inner__formular__item__element__control:hover,
 	}
 	
 	.visible__tooltip {
-		margin-top: 24px;
+		margin-top: 12px;
 	}
 	.error__message {
 		padding-left: 36px;
@@ -1052,7 +1056,7 @@ select.formular__ziadost__inner__formular__item__element__control:hover,
 	.product__intro, 
 	.product__info {
 		float: left;
-		padding: 48px 24px;
+		padding: 36px 24px;
 		width: 38.2%;
 	}
 	.product__intro {
@@ -1065,20 +1069,55 @@ select.formular__ziadost__inner__formular__item__element__control:hover,
 		padding-top: 0;
 		border-top: none;
 	}
+	.table {
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
 	.product__form {
 		float: right;
+		padding: 18px 24px;
 		width: 61.8%;
 		
 		border-top: none;
 	}
-	.formular__ziadost__inner__formular__block__heading strong {
-		display: block;
-		font-size: 22px;
+	.formular__ziadost__inner__formular__item, 
+	.formular__ziadost__inner__formular__block__heading, 
+	.formular__ziadost__inner__formular__submit {
+		padding: 18px 24px;
 	}
-	.formular__ziadost__inner__formular__item__label {
-		margin-bottom: 12px;
+	.formular__ziadost__inner__formular__item.validation__error {
+		margin-top: 18px;
+		margin-bottom: 18px;
+	}
+	.formular__ziadost__inner__formular__vyhlasenia__element {
+		padding: 18px 24px;
+	}
+	.formular__ziadost__inner__formular__vyhlasenia__element .checkmark {
+		top: 18px;
 	}
 	
+	.formular__ziadost__inner__formular__item .error__message {
+		margin-bottom: 18px;
+	}
+	.formular__ziadost__inner__formular__vyhlasenia .error__message {
+		padding: 18px 24px;
+		padding-left: 60px;
+	}
+	.formular__ziadost__inner__formular__vyhlasenia .error__message:before {
+		top: 18px;
+	}
+	
+	.product__info h2, 
+	.product__info h3, 
+	.product__info p, 
+	.product__info ul, 
+	.product__info ol {
+		margin-bottom: 18px;
+	}
+	.product__info h2:not(:first-child), 
+	.product__info h3:not(:first-child) {
+		padding-top: 18px;
+	}
 	.product__info h2 {
 		font-size: 22px;
 		line-height: 32px;
@@ -1097,6 +1136,12 @@ select.formular__ziadost__inner__formular__item__element__control:hover,
 	.icon__list li i {
 		top: 4px;
 		left: -20px;
+	}
+	
+	.alert {
+		margin-top: 36px;
+		margin-bottom: 36px;
+		padding: 18px 24px;
 	}
 	
 	.product__line {
